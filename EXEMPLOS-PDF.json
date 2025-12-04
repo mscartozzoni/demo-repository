@@ -1,0 +1,75 @@
+{
+  "orcamento": {
+    "id": "ORC-2024-001",
+    "paciente": {
+      "nome": "Maria Silva Santos",
+      "cpf": "123.456.789-00",
+      "telefone": "(11) 98765-4321",
+      "email": "maria@email.com"
+    },
+    "procedimentos": [
+      {
+        "nome": "Rinoplastia Estética",
+        "valor": 15000.00,
+        "observacoes": "Inclui correção de septo"
+      },
+      {
+        "nome": "Consulta Pré-operatória",
+        "valor": 500.00
+      },
+      {
+        "nome": "Exames Laboratoriais",
+        "valor": 800.00
+      }
+    ],
+    "formasPagamento": [
+      "À vista: R$ 14.670,00 (10% desconto)",
+      "Parcelado: até 12x de R$ 1.358,33 sem juros",
+      "Parcelado: até 18x de R$ 945,00 com juros"
+    ],
+    "observacoes": "Orçamento inclui honorários médicos, uso do centro cirúrgico, anestesista e materiais cirúrgicos. Não inclui hospedagem.",
+    "validade": "30 dias"
+  },
+  
+  "relatorio": {
+    "id": "REL-2024-001",
+    "data": "20/11/2024",
+    "paciente": {
+      "nome": "João Carlos Santos",
+      "dataNascimento": "15/05/1985",
+      "cpf": "987.654.321-00"
+    },
+    "anamnese": "Paciente do sexo masculino, 39 anos, procura avaliação para rinoplastia. Relata insatisfação com formato da ponta nasal e presença de desvio. Nega cirurgias prévias na região. Nega alergias medicamentosas. Histórico familiar de hipertensão.",
+    "exame": "Exame físico da região nasal revela desvio de septo à direita, ponta nasal bulbosa e discreto excesso de giba óssea. Fossas nasais pérvias. Ausência de sinais flogísticos.",
+    "diagnostico": "1. Desvio de septo nasal à direita\n2. Ponta nasal bulbosa\n3. Discreta giba dorsal\n\nIndicação cirúrgica para rinoplastia estética e funcional.",
+    "conduta": "Solicitados exames pré-operatórios:\n- Hemograma completo\n- Coagulograma\n- Glicemia de jejum\n- Ureia e creatinina\n- ECG\n- Risco cirúrgico com cardiologista\n\nAgendamento de cirurgia para avaliação de disponibilidade do centro cirúrgico. Retorno em 30 dias com exames."
+  },
+  
+  "termo": {
+    "id": "TERMO-2024-001",
+    "procedimento": "Rinoplastia Estética e Funcional",
+    "paciente": {
+      "nome": "Ana Paula Costa Silva",
+      "cpf": "111.222.333-44"
+    }
+  },
+  
+  "recibo": {
+    "numero": "00123",
+    "valor": 1500.00,
+    "valorExtenso": "um mil e quinhentos reais",
+    "pagador": {
+      "nome": "Pedro Oliveira Santos",
+      "cpf": "555.666.777-88",
+      "email": "pedro@email.com"
+    },
+    "referente": "consulta médica, avaliação pré-operatória e exames complementares",
+    "local": "São Paulo",
+    "data": "20/11/2024"
+  },
+  
+  "html_custom": {
+    "html": "<html><head><style>body { font-family: Arial; padding: 40px; } h1 { color: #2c3e50; } table { width: 100%; border-collapse: collapse; } td, th { border: 1px solid #ddd; padding: 8px; } th { background: #3498db; color: white; }</style></head><body><h1>Relatório de Consultas - Novembro 2024</h1><table><tr><th>Data</th><th>Paciente</th><th>Procedimento</th><th>Valor</th></tr><tr><td>05/11/2024</td><td>Maria Silva</td><td>Consulta</td><td>R$ 500</td></tr><tr><td>12/11/2024</td><td>João Santos</td><td>Retorno</td><td>R$ 200</td></tr><tr><td>20/11/2024</td><td>Ana Costa</td><td>Avaliação</td><td>R$ 500</td></tr></table><p><strong>Total:</strong> R$ 1.200,00</p></body></html>",
+    "filename": "relatorio-consultas-nov-2024.pdf"
+  }
+}

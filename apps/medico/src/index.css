@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 217.2 91.2% 59.8%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.theme-default {
+  --background: 224 71% 4%; /* Deep, dark blue */
+  --foreground: 210 40% 98%; /* Almost white */
+  --card: 222 71% 8%; /* Slightly lighter blue for cards */
+  --card-foreground: 210 40% 98%;
+  --popover: 224 71% 4%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 217 91% 60%; /* Bright blue for primary actions */
+  --primary-foreground: 210 40% 98%;
+  --secondary: 222 47% 11%; /* A muted blue for secondary elements */
+  --secondary-foreground: 210 40% 98%;
+  --muted: 222 47% 11%;
+  --muted-foreground: 215 20% 65%; /* Grayish-blue for muted text */
+  --accent: 222 47% 11%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 72% 51%; /* Red for destructive actions */
+  --destructive-foreground: 210 40% 98%;
+  --border: 222 47% 11%;
+  --input: 222 47% 11%;
+  --ring: 217 91% 60%;
+  --radius: 0.5rem;
+}
+
+@layer utilities {
+  .glass-effect {
+    @apply bg-slate-800/50 backdrop-blur-sm border border-slate-700;
+  }
+
+  .image-overlay {
+      @apply absolute inset-0 bg-black/30 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity;
+  }
+  
+  /* Print-specific styles */
+  @media print {
+      body.printing {
+          background-color: white;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+      }
+      .no-print {
+          display: none !important;
+      }
+      .printable-container {
+          display: block !important;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: white;
+      }
+      .break-inside-avoid {
+        break-inside: avoid;
+      }
+  }
+
+  .printable-container {
+      display: none;
+  }
+
+  .lined-input-preview {
+    @apply w-full border-b border-dotted border-gray-400 py-1 text-sm;
+    min-height: 2rem;
+  }
+  
+  .lined-textarea-preview {
+    @apply w-full text-sm leading-relaxed;
+    background-image: linear-gradient(to bottom, transparent 95%, #e0e0e0 95%);
+    background-size: 100% 1.5rem; /* Adjust line height */
+    line-height: 1.5rem;
+  }
+}

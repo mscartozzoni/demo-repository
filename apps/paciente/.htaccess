@@ -1,0 +1,50 @@
+# ========================================
+# PORTAL FRONT-END - REGRAS DE SEGURANÇA E REESCRITA
+# ========================================
+
+# Proteger arquivos sensíveis
+<FilesMatch "(^(\.env|\.htaccess|config\.php|api\.php)|(\.(log|sql|bak|swp|sh|ini))$)">
+    Require all denied
+</FilesMatch>
+
+RewriteEngine On
+
+# Manter a aplicação React funcionando (Single Page Application)
+# Redireciona todas as requisições não encontradas para o index.html
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+# CORS Headers Globais
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, PATCH, PUT, DELETE, OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Edge-Key"
+
+# Security Headers
+Header always set X-Content-Type-Options nosniff
+Header always set X-Frame-Options DENY
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+# Compressão de arquivos
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE application/javascript application/json application/rss+xml application/vnd.ms-fontobject application/x-font application/x-font-opentype application/x-font-truetype application/x-font-ttf application/x-javascript application/xhtml+xml application/xml font/opentype font/otf font/ttf image/svg+xml image/x-icon text/css text/html text/javascript text/plain text/xml
+</IfModule>
+
+# Controle de Cache da API
+<FilesMatch "\.(php)$">
+    <IfModule mod_expires.c>
+        ExpiresActive On
+        ExpiresByType application/json "access plus 0 seconds"
+    </IfModule>
+    <IfModule mod_headers.c>
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires 0
+    </IfModule>
+</FilesMatch>
+
+# Forçar HTTPS (descomente quando tiver SSL configurado)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

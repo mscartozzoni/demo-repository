@@ -1,0 +1,72 @@
+{
+  "dashboard": {
+    "welcome": "¡Bienvenido(a) de nuevo, {{name}}!",
+    "subtitle": "Este es tu centro de mando. ¿Listo para un día productivo?",
+    "quick_stats": {
+      "consultations_today": "Consultas Hoy",
+      "new_patients": "Nuevos Pacientes",
+      "messages": "Mensajes"
+    },
+    "quick_actions": "Acciones Rápidas",
+    "new_appointment": "Nueva Cita",
+    "add_patient": "Añadir Paciente",
+    "create_document": "Crear Documento"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "agenda": "Agenda",
+    "teleconsultations": "Teleconsultas",
+    "patients": "Pacientes",
+    "journey": "Jornada",
+    "evolution": "Evolución",
+    "messages": "Mensajes",
+    "financial": "Financiero",
+    "documents": "Documentos",
+    "products": "Productos",
+    "website_builder": "Constructor de Sitio",
+    "qr_code_generator": "Generador de QR",
+    "blog": "Blog",
+    "analytics": "Análisis",
+    "administration": "Administración",
+    "protocols": "Protocolos",
+    "settings": "Configuraciones"
+  },
+  "user_menu": {
+    "my_account": "Mi Cuenta",
+    "profile": "Perfil",
+    "layout": "Diseño",
+    "language": "Idioma",
+    "logout": "Cerrar Sesión"
+  },
+  "layout_styles": {
+    "default": "Estándar",
+    "bordered": "Bordeado",
+    "transparent": "Transparente"
+  },
+  "languages": {
+    "pt": "Portugués",
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "login": {
+    "title": "Portal Médico",
+    "subtitle": "Inicia sesión para acceder a tu plataforma de gestión.",
+    "email_label": "Correo Electrónico",
+    "password_label": "Contraseña",
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "login_button": "Iniciar Sesión",
+    "no_account": "¿No tienes una cuenta?",
+    "register": "Regístrate"
+  },
+  "landing": {
+    "title": "Portal Médico",
+    "subtitle": "Tu plataforma completa para la gestión de pacientes, agenda y protocolos quirúrgicos.",
+    "access_button": "Acceder al Portal"
+  },
+  "emails": {
+    "document_sharing": {
+      "subject": "Su documento de Dr. Márcio Plastic Surgery",
+      "body": "Hola {{patientName}},\n\nA continuación, se adjunta el documento '{{documentTitle}}' que solicitó.\n\nPuede verlo accediendo al siguiente enlace.\n\nSaludos cordiales,\nEquipo del Dr. Márcio"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "portal-clinic-unified",
+  "version": "1.0.0",
+  "description": "Portal Clinic - Unified Ecosystem",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm run install:apps && npm run install:backend",
+    "install:apps": "npm install --workspace=apps/bot --workspace=apps/api --workspace=apps/medico --workspace=apps/paciente --workspace=apps/financeiro --workspace=apps/orcamento",
+    "install:backend": "npm install --workspace=backend",
+    "build:all": "npm run build:backend && npm run build:bot && npm run build:api && npm run build:medico && npm run build:paciente && npm run build:financeiro && npm run build:orcamento",
+    "build:backend": "echo 'Backend built'",
+    "build:bot": "npm run build --workspace=apps/bot",
+    "build:api": "npm run build --workspace=apps/api",
+    "build:medico": "npm run build --workspace=apps/medico",
+    "build:paciente": "npm run build --workspace=apps/paciente",
+    "build:financeiro": "npm run build --workspace=apps/financeiro",
+    "build:orcamento": "npm run build --workspace=apps/orcamento",
+    "deploy:vps": "node deploy/deploy-to-vps.js",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:bot": "npm run dev --workspace=apps/bot",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:medico": "npm run dev --workspace=apps/medico",
+    "dev:paciente": "npm run dev --workspace=apps/paciente",
+    "dev:financeiro": "npm run dev --workspace=apps/financeiro",
+    "dev:orcamento": "npm run dev --workspace=apps/orcamento",
+    "start:backend": "npm run start --workspace=backend",
+    "audit:fix": "npm audit fix",
+    "test": "npm run test --workspace=backend"
+  },
+  "keywords": [
+    "portal-clinic",
+    "monorepo",
+    "healthcare",
+    "clinic-management"
+  ],
+  "author": "Márcio Scartozzoni",
+  "license": "UNLICENSED"
+}

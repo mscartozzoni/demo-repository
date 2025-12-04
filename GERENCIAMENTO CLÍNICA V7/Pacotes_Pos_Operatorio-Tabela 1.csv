@@ -1,0 +1,4 @@
+ID_Pacote;Nome_Pacote;Nivel;ID_Paciente;ID_Cirurgia;Selecionado;Drenagem_Manual;Surgery_Care;Fisioterapia_Basica;Motorista;Alimentacao;Limpeza;Acompanhante;Fisioterapia_Avancada;Hiperbarica;Valor_Total;;;ID_Pacote;Nome_Pacote;Nivel;ID_Paciente;ID_Cirurgia;Drenagem_Manual;Surgery_Care;Fisioterapia_Basica;Motorista;Alimentacao;Limpeza;Acompanhante;Fisioterapia_Avancada;Hiperbarica;Valor_Total;;;
+PO-001;Essencial;1;;;FALSO;;;;;;;;;;;;;PO-001;Essencial;1;;;3;Básico;3;Não;Não;Não;Não;Não;Não;3500;;;
+PO-002;Conforto;2;;;FALSO;;;;;;;;;;;;;PO-002;Conforto;2;;;3;Avançado;4;Sim;Meia Pensão;Sim;Não;Não;Não;7800;;;
+PO-003;Premium;3;;;VERDADEIRO;;;;;;;;;;0;;;PO-003;Premium;3;;;3;Premium;4;24/7;Completa;Sim;Sim;Sim;5;15500;;;

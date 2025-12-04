@@ -1,0 +1,634 @@
+{
+  "clinic_id": "clinic_123",
+  "staffs": [
+    {
+      "id": "staff_admin_01",
+      "clinic_id": "clinic_123",
+      "name": "Admin Master",
+      "profile": "Admin",
+      "sector": "Administrativo",
+      "role": "admin",
+      "avatar": "https://i.pravatar.cc/150?u=adminmaster"
+    },
+    {
+      "id": "staff_medico_01",
+      "clinic_id": "clinic_123",
+      "name": "Dr. House",
+      "profile": "Médico",
+      "sector": "Atendimento",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?u=drhouse"
+    },
+    {
+      "id": "staff_secretaria_01",
+      "clinic_id": "clinic_123",
+      "name": "Secretária Beth",
+      "profile": "Secretária",
+      "sector": "Agendamento",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?u=beth"
+    },
+    {
+      "id": "staff_1762323206164",
+      "name": "Marcio Scartozzoni",
+      "profile": "Admin",
+      "sector": "Administrativo",
+      "role": "admin",
+      "clinic_id": "clinic_123",
+      "avatar": "https://i.pravatar.cc/150?u=1762323206164"
+    },
+    {
+      "id": "staff_1762323223654",
+      "name": "Marcio Scartozzoni",
+      "profile": "Médico",
+      "sector": "Atendimento",
+      "role": "user",
+      "clinic_id": "clinic_123",
+      "avatar": "https://i.pravatar.cc/150?u=1762323223654"
+    }
+  ],
+  "patients": [
+    {
+      "id": "patient_1",
+      "clinic_id": "clinic_123",
+      "full_name": "Maria Silva",
+      "phone": "5511987654321",
+      "email": "maria.silva@example.com",
+      "created_at": "2025-10-31T05:33:28.697Z"
+    },
+    {
+      "id": "patient_2",
+      "clinic_id": "clinic_123",
+      "full_name": "João Santos",
+      "phone": "5521912345678",
+      "email": "joao.santos@example.com",
+      "created_at": "2025-10-26T05:33:28.697Z"
+    },
+    {
+      "id": "patient_3",
+      "clinic_id": "clinic_123",
+      "full_name": "Ana Costa",
+      "phone": "5531988887777",
+      "email": "ana.costa@example.com",
+      "created_at": "2025-11-03T05:33:28.697Z"
+    },
+    {
+      "full_name": "Marcio Scartozzoni",
+      "email": "marcio.trabalho@gmail.com",
+      "phone": "11978343456",
+      "id": "patient_1762322502783",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:01:42.783Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_1",
+      "clinic_id": "clinic_123",
+      "patient_id": "patient_1",
+      "content": "Gostaria de agendar uma consulta para próxima semana",
+      "type": "communication",
+      "from_contact": true,
+      "user_id": null,
+      "created_at": "2025-11-05T05:28:28.697Z",
+      "read": true
+    },
+    {
+      "id": "msg_2",
+      "clinic_id": "clinic_123",
+      "patient_id": "patient_1",
+      "content": "Olá Maria, claro! Temos horários disponíveis na terça-feira às 10h.",
+      "type": "communication",
+      "from_contact": false,
+      "user_id": "staff_secretaria_01",
+      "created_at": "2025-11-05T05:29:28.697Z",
+      "read": true
+    },
+    {
+      "id": "msg_3",
+      "clinic_id": "clinic_123",
+      "patient_id": "patient_2",
+      "content": "Qual o valor da consulta de cardiologia?",
+      "type": "communication",
+      "from_contact": true,
+      "user_id": null,
+      "created_at": "2025-11-05T05:18:28.697Z",
+      "read": true
+    },
+    {
+      "patient_id": "patient_2",
+      "content": "Olá João, o valor é de R$500,00. Você tem interesse em agendar a consulta?",
+      "type": "communication",
+      "from_contact": false,
+      "user_id": "staff_admin_01",
+      "id": "msg_1762322666855_0.7410517447482531",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:04:26.855Z",
+      "read": true
+    },
+    {
+      "patient_id": "patient_1",
+      "content": "Podemos fazer o agendamento para Senhora?",
+      "type": "communication",
+      "from_contact": false,
+      "user_id": "staff_admin_01",
+      "id": "msg_1762322710996_0.9578014498254163",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:05:10.996Z",
+      "read": true
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt_1",
+      "clinic_id": "clinic_123",
+      "patient_id": "patient_1",
+      "staff_id": "staff_medico_01",
+      "date": "2025-11-12T05:33:28.697Z",
+      "status": "confirmed",
+      "notes": "Primeira consulta de rotina."
+    }
+  ],
+  "budgets": [
+    {
+      "id": "budget_1",
+      "clinic_id": "clinic_123",
+      "patient_id": "patient_2",
+      "staff_id": "staff_secretaria_01",
+      "amount": 450,
+      "service": "Consulta Cardiologia + Eletrocardiograma",
+      "status": "sent",
+      "created_at": "2025-11-05T05:23:28.697Z"
+    }
+  ],
+  "surgeries": [],
+  "documents": [
+    {
+      "id": "doc_1",
+      "clinic_id": "clinic_123",
+      "patient_id": "patient_1",
+      "title": "Resultados Exame de Sangue",
+      "url": "/documents/patient_1/blood_test_results.pdf",
+      "type": "lab_result",
+      "created_at": "2025-11-03T05:33:28.697Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag_consulta",
+      "name": "#consulta",
+      "color": "bg-blue-500"
+    },
+    {
+      "id": "tag_agendada",
+      "name": "#agendada",
+      "color": "bg-cyan-500"
+    },
+    {
+      "id": "tag_confirmada",
+      "name": "#confirmada",
+      "color": "bg-teal-500"
+    },
+    {
+      "id": "tag_realizada",
+      "name": "#realizada",
+      "color": "bg-green-500"
+    },
+    {
+      "id": "tag_orcamento",
+      "name": "#orcamento",
+      "color": "bg-yellow-500"
+    },
+    {
+      "id": "tag_enviado",
+      "name": "#enviado",
+      "color": "bg-amber-500"
+    },
+    {
+      "id": "tag_aceito",
+      "name": "#aceito",
+      "color": "bg-lime-500"
+    },
+    {
+      "id": "tag_pagamento",
+      "name": "#pagamento",
+      "color": "bg-orange-500"
+    },
+    {
+      "id": "tag_parcial",
+      "name": "#parcial",
+      "color": "bg-red-500"
+    },
+    {
+      "id": "tag_recebido",
+      "name": "#recebido",
+      "color": "bg-pink-500"
+    },
+    {
+      "id": "tag_total",
+      "name": "#total",
+      "color": "bg-purple-500"
+    },
+    {
+      "id": "tag_cirurgia",
+      "name": "#cirurgia",
+      "color": "bg-indigo-500"
+    },
+    {
+      "id": "tag_cirurgia_agendada",
+      "name": "#cirurgia-agendada",
+      "color": "bg-violet-500"
+    },
+    {
+      "id": "tag_cirurgia_confirmada",
+      "name": "#cirurgia-confirmada",
+      "color": "bg-fuchsia-500"
+    }
+  ],
+  "systemLogs": [
+    {
+      "id": "log_1762323481404",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:18:01.404Z",
+      "action": "Sincronização Manual",
+      "details": {
+        "details": "Dados do painel foram sincronizados manualmente."
+      },
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762323476913",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:17:56.913Z",
+      "action": "Sincronização Manual",
+      "details": {
+        "details": "Dados do painel foram sincronizados manualmente."
+      },
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762323223654",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:13:43.654Z",
+      "action": "Atendente Adicionado",
+      "details": "Novo atendente adicionado: Marcio Scartozzoni",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762323206165",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:13:26.165Z",
+      "action": "Atendente Adicionado",
+      "details": "Novo atendente adicionado: Marcio Scartozzoni",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762322793416",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:06:33.416Z",
+      "action": "Jornada Atualizada",
+      "details": "Tag ##realizada foi atualizada para o paciente patient_1.",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762322531177",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:02:11.177Z",
+      "action": "Jornada Atualizada",
+      "details": "Tag ##agendada foi atualizada para o paciente patient_1762322502783.",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762322522761",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:02:02.761Z",
+      "action": "Jornada Atualizada",
+      "details": "Tag ##consulta foi atualizada para o paciente patient_1762322502783.",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762322502786",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:01:42.786Z",
+      "action": "Lead Adicionado",
+      "details": "Novo lead adicionado: Marcio Scartozzoni",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": "log_1762320889181",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T05:34:49.181Z",
+      "action": "Backup Realizado",
+      "details": "Os dados do sistema foram exportados.",
+      "user": {
+        "name": "Admin Master"
+      }
+    },
+    {
+      "id": 1,
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T05:31:28.697Z",
+      "user": {
+        "name": "Admin Master"
+      },
+      "action": "Login",
+      "details": "Usuário 'Admin Master' logou no sistema."
+    }
+  ],
+  "emailLogs": [],
+  "settings": {
+    "apiKey": "mock-api-key-12345",
+    "externalIdParam": "patient_id"
+  },
+  "conversations": [
+    {
+      "patient_id": "patient_1",
+      "priority": "media",
+      "tags": [
+        "tag_consulta"
+      ]
+    },
+    {
+      "patient_id": "patient_2",
+      "priority": "alta",
+      "tags": []
+    },
+    {
+      "patient_id": "patient_3",
+      "priority": "baixa",
+      "tags": []
+    },
+    {
+      "patient_id": "patient_1762322502783",
+      "priority": "baixa",
+      "tags": [],
+      "created_at": "2025-11-05T06:01:42.788Z"
+    }
+  ],
+  "mailboxes": [
+    {
+      "id": "mailbox_1",
+      "email": "secretaria@marcioplasticsurgery.com",
+      "functions": [
+        {
+          "name": "Agendamento",
+          "tags": [
+            "tag_consulta",
+            "tag_agendada",
+            "tag_confirmada",
+            "tag_realizada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mailbox_2",
+      "email": "medico@marcioplasticsurgery.com",
+      "functions": [
+        {
+          "name": "Orçamento",
+          "tags": [
+            "tag_consulta",
+            "tag_realizada",
+            "tag_orcamento",
+            "tag_enviado",
+            "tag_aceito"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mailbox_3",
+      "email": "financeiro@marcioplasticsurgery.com",
+      "functions": [
+        {
+          "name": "Financeiro",
+          "tags": [
+            "tag_orcamento",
+            "tag_aceito",
+            "tag_pagamento",
+            "tag_parcial",
+            "tag_recebido",
+            "tag_total"
+          ]
+        },
+        {
+          "name": "Cirurgia",
+          "tags": [
+            "tag_pagamento",
+            "tag_parcial",
+            "tag_recebido",
+            "tag_cirurgia",
+            "tag_cirurgia_agendada",
+            "tag_cirurgia_confirmada",
+            "tag_realizada"
+          ]
+        }
+      ]
+    }
+  ],
+  "patientJourneys": [
+    {
+      "patient_id": "patient_1",
+      "tags": [
+        {
+          "tagId": "tag_consulta",
+          "timestamp": "2025-11-02T05:33:28.697Z"
+        },
+        {
+          "tagId": "tag_agendada",
+          "timestamp": "2025-11-03T05:33:28.697Z"
+        },
+        {
+          "tagId": "tag_confirmada",
+          "timestamp": "2025-11-04T05:33:28.697Z"
+        },
+        {
+          "tagId": "tag_realizada",
+          "timestamp": "2025-11-05T06:06:33.416Z"
+        }
+      ]
+    },
+    {
+      "patient_id": "patient_2",
+      "tags": [
+        {
+          "tagId": "tag_consulta",
+          "timestamp": "2025-10-28T05:33:28.697Z"
+        }
+      ]
+    },
+    {
+      "patient_id": "patient_1762322502783",
+      "tags": [
+        {
+          "tagId": "tag_consulta",
+          "timestamp": "2025-11-05T06:02:02.761Z"
+        },
+        {
+          "tagId": "tag_agendada",
+          "timestamp": "2025-11-05T06:02:11.177Z"
+        }
+      ]
+    }
+  ],
+  "view_patient_data": [
+    {
+      "id": "patient_1",
+      "clinic_id": "clinic_123",
+      "full_name": "Maria Silva",
+      "phone": "5511987654321",
+      "email": "maria.silva@example.com",
+      "created_at": "2025-10-31T05:33:28.697Z",
+      "messages": [
+        {
+          "patient_id": "patient_1",
+          "content": "Podemos fazer o agendamento para Senhora?",
+          "type": "communication",
+          "from_contact": false,
+          "user_id": "staff_admin_01",
+          "id": "msg_1762322710996_0.9578014498254163",
+          "clinic_id": "clinic_123",
+          "created_at": "2025-11-05T06:05:10.996Z",
+          "read": true
+        },
+        {
+          "id": "msg_2",
+          "clinic_id": "clinic_123",
+          "patient_id": "patient_1",
+          "content": "Olá Maria, claro! Temos horários disponíveis na terça-feira às 10h.",
+          "type": "communication",
+          "from_contact": false,
+          "user_id": "staff_secretaria_01",
+          "created_at": "2025-11-05T05:29:28.697Z",
+          "read": true
+        },
+        {
+          "id": "msg_1",
+          "clinic_id": "clinic_123",
+          "patient_id": "patient_1",
+          "content": "Gostaria de agendar uma consulta para próxima semana",
+          "type": "communication",
+          "from_contact": true,
+          "user_id": null,
+          "created_at": "2025-11-05T05:28:28.697Z",
+          "read": false
+        }
+      ],
+      "appointments": [
+        {
+          "id": "appt_1",
+          "clinic_id": "clinic_123",
+          "patient_id": "patient_1",
+          "staff_id": "staff_medico_01",
+          "date": "2025-11-12T05:33:28.697Z",
+          "status": "confirmed",
+          "notes": "Primeira consulta de rotina."
+        }
+      ],
+      "budgets": [],
+      "documents": [
+        {
+          "id": "doc_1",
+          "clinic_id": "clinic_123",
+          "patient_id": "patient_1",
+          "title": "Resultados Exame de Sangue",
+          "url": "/documents/patient_1/blood_test_results.pdf",
+          "type": "lab_result",
+          "created_at": "2025-11-03T05:33:28.697Z"
+        }
+      ],
+      "surgeries": []
+    },
+    {
+      "id": "patient_2",
+      "clinic_id": "clinic_123",
+      "full_name": "João Santos",
+      "phone": "5521912345678",
+      "email": "joao.santos@example.com",
+      "created_at": "2025-10-26T05:33:28.697Z",
+      "messages": [
+        {
+          "id": "msg_3",
+          "clinic_id": "clinic_123",
+          "patient_id": "patient_2",
+          "content": "Qual o valor da consulta de cardiologia?",
+          "type": "communication",
+          "from_contact": true,
+          "user_id": null,
+          "created_at": "2025-11-05T05:18:28.697Z",
+          "read": false
+        },
+        {
+          "patient_id": "patient_2",
+          "content": "Olá João, o valor é de R$500,00. Você tem interesse em agendar a consulta?",
+          "type": "communication",
+          "from_contact": false,
+          "user_id": "staff_admin_01",
+          "id": "msg_1762322666855_0.7410517447482531",
+          "clinic_id": "clinic_123",
+          "created_at": "2025-11-05T06:04:26.855Z",
+          "read": true
+        }
+      ],
+      "appointments": [],
+      "budgets": [
+        {
+          "id": "budget_1",
+          "clinic_id": "clinic_123",
+          "patient_id": "patient_2",
+          "staff_id": "staff_secretaria_01",
+          "amount": 450,
+          "service": "Consulta Cardiologia + Eletrocardiograma",
+          "status": "sent",
+          "created_at": "2025-11-05T05:23:28.697Z"
+        }
+      ],
+      "documents": [],
+      "surgeries": []
+    },
+    {
+      "id": "patient_3",
+      "clinic_id": "clinic_123",
+      "full_name": "Ana Costa",
+      "phone": "5531988887777",
+      "email": "ana.costa@example.com",
+      "created_at": "2025-11-03T05:33:28.697Z",
+      "messages": [],
+      "appointments": [],
+      "budgets": [],
+      "documents": [],
+      "surgeries": []
+    },
+    {
+      "full_name": "Marcio Scartozzoni",
+      "email": "marcio.trabalho@gmail.com",
+      "phone": "11978343456",
+      "id": "patient_1762322502783",
+      "clinic_id": "clinic_123",
+      "created_at": "2025-11-05T06:01:42.783Z",
+      "messages": [],
+      "appointments": [],
+      "budgets": [],
+      "documents": [],
+      "surgeries": [],
+      "status": "Lead"
+    }
+  ]
+}

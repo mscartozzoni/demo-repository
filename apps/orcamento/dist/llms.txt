@@ -1,0 +1,4 @@
+## Pages
+- [- Nossa Loja](/productdetail): No description available
+- [Compra Realizada com Sucesso!](/success): Página de confirmação de compra.
+- [Loja - MediBudget Pro](/store): Explore nossos produtos exclusivos.

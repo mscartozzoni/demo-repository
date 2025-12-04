@@ -1,0 +1,400 @@
+id_paciente;;;;;;;;;
+InicioConsulta;;;;;;;;;
+tipoConsulta;;;;;;;;;
+dataConsulta;;;;;;;;;
+;;id_paciente;nome_paciente;tipoConsulta;dataConsulta;InicioConsulta;terminoConsulta;tipoCirurgia;statusConsulta
+MS-211;;;;;;;;;
+31/12/1899;;;;;;;;;
+CONSULTA - CONVENIO SAO MIGUEL;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-211;Josefa Maria de Araújo Vitorino;CONSULTA - CONVENIO SAO MIGUEL;2024-12-23;13:30;14:00;Dermolipectomia Abdominal ;Concluído
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-211;Josefa Maria de Araújo Vitorino;Consulta Particular Presencial;2024-11-11;14:00;14:30;Dermolipectomia Abdominal ;Concluído
+MS-217;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-217;Josiene da Silva Barboza Caldas;Consulta Convênio  Presencial;2024-11-26;13:30;14:00;;Remarcado
+(em branco);;;;;;;;;
+CONSULTA - CONVENIO SAO MIGUEL;;;;;;;;;
+(em branco);;;;;;;;;
+;;MS-217;Josiene da Silva Barboza Caldas;CONSULTA - CONVENIO SAO MIGUEL;;;;;
+MS-242;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-242;Melissa Ferreira;Consulta Particular Presencial;2024-12-18;18:00;19:00;Femilização Secundária;Concluído
+MS-197;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-197;Elizabeth dos Santos Lima;Consulta Particular Presencial;2024-11-26;18:00;18:40;Mammy;Concluído
+MS-23;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-23;Camila Ruiz Batista;Consulta Particular Presencial;2024-11-27;13:30;14:30;;Agendado
+MS-220;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-220;Agatha Lira Romana Torres da Silva;Consulta Particular Presencial;2024-11-27;18:00;19:00;;Agendado
+MS-219;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-219;Alaize Franco do Nascimento;Consulta Particular Presencial;2024-11-26;16:00;17:10;;Agendado
+MS-218;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-218;Leticia Fiuza;Consulta Particular Presencial;2024-11-26;14:30;16:00;;Cancelado
+MS-125;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-125;Raylla Nabutt;Consulta Particular Presencial;2024-11-01;18:00;19:28;Contorno Corporal a laser;Agendado
+MS-203;;;;;;;;;
+31/12/1899;;;;;;;;;
+Bate Papo ;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-203;Francisca Antonio Ferreira Santos;Bate Papo ;2024-11-22;18:00;19:00;CIRURGIA PERSONALIZADA ;Concluído
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-203;Francisca Antonio Ferreira Santos;Consulta Particular Presencial;2024-11-13;;14:30;Abdome + Mama;
+MS-102;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-102;Maria Edvânia Mendes da Silva;Consulta Particular Presencial;2024-10-15;15:00;15:30;Dermolipectomia + Associações;Concluído
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-102;Maria Edvânia Mendes da Silva;Consulta Convênio  Presencial;2024-11-13;;;;
+MS-49;;;;;;;;;
+31/12/1899;;;;;;;;;
+Bate Papo ;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-49;Elisangela Vilar da Silva;Bate Papo ;2024-11-27;15:30;16:00;Dermolipectomia + Associações;Concluído
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-49;Elisangela Vilar da Silva;Consulta Particular Presencial;2024-10-30;;;;
+;;MS-49;Elisangela Vilar da Silva;Consulta Particular Presencial;2024-10-28;;;;
+MS-07;;;;;;;;;
+31/12/1899;;;;;;;;;
+RETORNO;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-07;Ana Rafaella Pinheiro;RETORNO;2024-12-12;16:00;16:30;Femilização Secundária;Concluído
+MS-229;;;;;;;;;
+31/12/1899;;;;;;;;;
+RETORNO;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-229;Eva Salvatierra;RETORNO;2024-12-10;15:30;16:00;Femilização Secundária;Concluído
+MS-141;;;;;;;;;
+31/12/1899;;;;;;;;;
+RETORNO;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-141;Samyh Messias dos Santos;RETORNO;2024-12-05;22:00;22:10;Femilização Secundária;Concluído
+;;MS-141;Samyh Messias dos Santos;RETORNO;2024-12-13;15:00;;Femilização Secundária;Agendado
+MS-173;;;;;;;;;
+31/12/1899;;;;;;;;;
+RETORNO;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-173;Wesley Brito da Silva;RETORNO;2024-12-05;23:45;23:50;Ginecomastia Bilateral ;Concluído
+MS-73;;;;;;;;;
+31/12/1899;;;;;;;;;
+RETORNO;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-73;Jayne Meireles de Sousa Costa;RETORNO;2024-12-11;16:00;;Femilização Secundária;Agendado
+;;MS-73;Jayne Meireles de Sousa Costa;RETORNO;2024-12-10;14:00;;Femilização Secundária;Remarcado
+Consulta Particular Online;;;;;;;;;
+mai. 2024;;;;;;;;;
+;;MS-73;Jayne Meireles de Sousa Costa;Consulta Particular Online;2024-05-20;15:00;16:00;Femilização Secundária;Concluído
+MS-182;;;;;;;;;
+31/12/1899;;;;;;;;;
+RETORNO;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-182;Yasmin Leocádio da Silva;RETORNO;2024-11-27;16:30;17:30;;Concluído
+Consulta Convênio  Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-182;Yasmin Leocádio da Silva;Consulta Convênio  Presencial;2024-10-11;15:00;16:00;Femilização Secundária;Concluído
+MS-235;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Online;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-235;Maria Eduarda Mota;Consulta Particular Online;2024-12-10;14:30;17:50;Femilização Secundária;Concluído
+MS-216;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Online;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-216;Camille Loyo Faria;Consulta Particular Online;2024-11-25;18:00;19:00;Abdome + MamaPrótese;Concluído
+MS-161;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Particular Online;;;;;;;;;
+ago. 2024;;;;;;;;;
+;;MS-161;Thais Helena Ferreira;Consulta Particular Online;2024-08-08;15:00;16:00;Lipoescultura + Mamoplastia;Concluído
+MS-234;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-234;Iraci Pereira Morato Santana;Consulta Convênio  Presencial;2024-12-09;13:30;14:00;Extensos Ferimentos - Tu de pele;Concluído
+MS-166;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-166;Vanessa Viana dos Santos;Consulta Convênio  Presencial;2024-12-09;17:00;17:30;Extensos Ferimentos - lipoma;Concluído
+MS-03;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-03;Amanda Duarte Delis;Consulta Convênio  Presencial;2024-11-14;13:00;13:39;Extensos Ferimentos - Tu de pele;Concluído
+MS-36;;;;;;;;;
+31/12/1899;;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-36;Daniel Silva PAz;Consulta Convênio  Presencial;2024-10-24;18:00;18:39;Ginecomastia Bilateral ;Concluído
+MS-240;;;;;;;;;
+31/12/1899;;;;;;;;;
+TELE MEDICINA - CONSULTA PARTICULAR - Agenda Brasília;;;;;;;;;
+dez. 2024;;;;;;;;;
+;;MS-240;Gizele Oliveira Corrêa;TELE MEDICINA - CONSULTA PARTICULAR - Agenda Brasília;2024-12-18;11:00;;;active
+MS-130;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-130;Rita de Cassia da Silva;Consulta Particular Presencial;2024-11-11;;15:30;;
+MS-35;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-35;cynthya oliveira da Silva goés;Consulta Particular Presencial;2024-11-06;;12:00;;
+Consulta Particular Online;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-35;cynthya oliveira da Silva goés;Consulta Particular Online;2024-10-29;;;;
+MS-01;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-01;Marcio Samara;Consulta Particular Presencial;2024-11-04;;17:21;;
+MS-103;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-103;MARIA ELEILDE DE SOUZA;Consulta Particular Presencial;2024-11-01;;16:20;Dermolipectomia + Associações;
+;;MS-103;Maria Eleilde De Souza;Consulta Particular Presencial;2024-11-12;;;Complemento de Dermo Mama e Contorno;
+MS-210;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-210;Maria do Socorro Ferreira Diogenses;Consulta Particular Presencial;2024-11-10;;16:41;;
+MS-214;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-214;Valquiria silva de oliveira;Consulta Particular Presencial;2024-11-12;;;;
+MS-29;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-29;Cláudio do Nascimento;Consulta Particular Presencial;2024-11-01;;;;
+MS-123;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-123;Quitéria Tenório Melo;Consulta Particular Presencial;2024-11-01;;;;
+MS-209;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-209;Rosa Maria;Consulta Particular Presencial;2024-10-30;;15:00;;
+MS-44;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-44;Dennis Oliveira;Consulta Particular Presencial;2024-10-21;;15:30;;
+MS-192;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-192;Cintia Deveza de Souza;Consulta Particular Presencial;2024-10-18;;;;Concluído
+MS-174;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-174;Yara Alves Ferreira;Consulta Particular Presencial;2024-10-17;;;Mamoplastia convênio x2;Concluído
+MS-135;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-135;Rose Conceição de Almeida;Consulta Particular Presencial;2024-10-14;;;;Concluído
+MS-93;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-93;Lucas Borges;Consulta Particular Presencial;2024-10-30;;;;
+MS-37;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-37;Daniela Claudino de Brotas;Consulta Particular Presencial;2024-10-30;;;Extensos Ferimentos - Tu de pele;
+MS-146;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-146;Solange ciriaco Garcia;Consulta Particular Presencial;2024-10-29;;;;
+MS-40;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-40;Danillo Pereira de Souza;Consulta Particular Presencial;2024-10-29;;;;
+MS-176;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-176;Yasmin Nunes Batista;Consulta Particular Presencial;2024-10-29;;;;
+MS-171;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-171;Vitória Araújo Soares;Consulta Particular Presencial;2024-10-28;;;;
+MS-106;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-106;Maya Massafera;Consulta Particular Presencial;2024-10-22;;;;
+MS-145;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-145;Silvana Freitas de Jesus;Consulta Particular Presencial;2024-10-22;;;;
+MS-126;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-126;Rebecca kauany da Silva;Consulta Particular Presencial;2024-10-18;;;;
+MS-157;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-157;Tayra Barreto da Silva;Consulta Particular Presencial;2024-10-16;;;;
+MS-189;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-189;Laura Del Bianco;Consulta Particular Presencial;2024-10-16;;;;
+MS-184;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-184;Graciany Oliveira Villas Boas ;Consulta Particular Presencial;2024-10-15;;;;
+;;MS-184;Graciany Oliveira Villas Boas ;Consulta Particular Presencial;2024-10-15;;;;
+MS-185;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-185;Magnéia Carvalho Silvestre de Oliveira ;Consulta Particular Presencial;2024-10-15;;;;
+MS-186;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-186;Gabriela Gallis;Consulta Particular Presencial;2024-10-15;;;;
+MS-144;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-144;Sheila Da Conceição Matos;Consulta Particular Presencial;2024-10-15;;;;
+MS-111;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-111;Mônica Pereira de Miranda ;Consulta Particular Presencial;2024-10-15;;;;
+MS-153;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-153;Talita Arcanjo de Holanda ;Consulta Particular Presencial;2024-10-15;;;;
+MS-206;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Online;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-206;Katia Sampaio da Silva;Consulta Particular Online;2024-11-18;;15:00;Extensos Ferimentos - Tu de pele;
+MS-80;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Online;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-80;Kátia Nubling Silva;Consulta Particular Online;2024-11-14;;;Mamoplastia convênio x2;
+MS-204;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-204;Ana Laura de Melo Martino;Consulta Convênio  Presencial;2024-11-19;;16:00;CIRURGIA PERSONALIZADA ;Agendado
+MS-202;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-202;Eva Gil Salvatierra;Consulta Convênio  Presencial;2024-11-14;;;Femilização Secundária;Concluído
+MS-205;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-205;Waneria de Melo Gelio;Consulta Convênio  Presencial;2024-11-19;;;;
+MS-208;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-208;Fabiana Vilela;Consulta Convênio  Presencial;2024-11-18;;;;
+MS-207;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-207;teste novembro;Consulta Convênio  Presencial;2024-11-17;;;Abdome + Mama;
+MS-28;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-28;Cláudia Carla Flancoso;Consulta Convênio  Presencial;2024-11-13;;;;
+MS-181;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+out. 2024;;;;;;;;;
+;;MS-181;Nycole Lordelo ;Consulta Convênio  Presencial;2024-10-14;;;;
+MS-95;;;;;;;;;
+(em branco);;;;;;;;;
+Bate Papo ;;;;;;;;;
+nov. 2024;;;;;;;;;
+;;MS-95;Lucila Nunes da Silva;Bate Papo ;2024-11-18;;16:00;Extensos Ferimentos - Tu de pele;Concluído
+MS-245;;;;;;;;;
+(em branco);;;;;;;;;
+CONSULTA - CONVENIO SAO MIGUEL;;;;;;;;;
+(em branco);;;;;;;;;
+;;MS-245;Giovanna Dellalo;CONSULTA - CONVENIO SAO MIGUEL;;;;;
+MS-213;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Particular Presencial;;;;;;;;;
+(em branco);;;;;;;;;
+;;MS-213;Talita Martins;Consulta Particular Presencial;;;;;
+MS-241;;;;;;;;;
+(em branco);;;;;;;;;
+Consulta Convênio  Presencial;;;;;;;;;
+(em branco);;;;;;;;;
+;;MS-241;Andrielly Maria jesus ;Consulta Convênio  Presencial;;;;;
+MS-231;;;;;;;;;
+(em branco);;;;;;;;;
+Evento Teste - Calendly;;;;;;;;;
+(em branco);;;;;;;;;
+;;MS-231;Nome;Evento Teste - Calendly;;;;;Concluído
+;;MS-231;Nome;Evento Teste - Calendly;;;;;
+;;MS-231;Nome;Evento Teste - Calendly;;;;;
+(em branco);;;;;;;;;
+(em branco);;;;;;;;;
+CONSULTA - CONVENIO SAO MIGUEL;;;;;;;;;
+(em branco);;;;;;;;;
+;;;MEIRE CRISTINA SANTOS VERCOSA;CONSULTA - CONVENIO SAO MIGUEL;;;;;
+Orçamento ;;;;;;;;;
+(em branco);;;;;;;;;
+;;;Tatiana Porto ;Orçamento ;;;;Mini Abdominoplástia;
+(em branco);;;;;;;;;
+(em branco);;;;;;;;;

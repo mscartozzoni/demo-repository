@@ -1,0 +1,22 @@
+id_paciente;nome_paciente;tipo_follow_up;data3agendadaFollow;statusFollowUp;Observações-PrimeiroContantatoPosOrcamento;data7agendadaFollow;statusFollowUp;Observações-SegundoContantatoPosOrcamento
+MS-141;Samyh Messias dos Santos;Pós_consulta;;;;;;
+MS-03;Amanda Duarte Delis;Pós_consulta;;;;;;
+MS-49;Elisangela Vilar da Silva;Pós_consulta;;;;;;
+MS-211;Josefa Maria de Araújo Vitorino;Pós_consulta;;;;;;
+MS-07;Ana Rafaella Pinheiro;Pós_consulta;;;;;;
+MS-206;Katia Sampaio da Silva;;;;;;;
+MS-206;Katia Sampaio da Silva;;;;;;;
+MS-229;Eva Salvatierra;;;;;;;
+MS-07;Ana Rafaella Pinheiro;;;;;;;
+MS-230;Jacqueline Eduarda Oliveira;;;;;;;
+MS-225;Margot Mellanie Coelho Alves;;;;;;;
+MS-73;Jayne Meireles de Sousa Costa;;;;;;;
+MS-161;Thais Helena Ferreira;;;;;;;
+MS-203;Francisca Antonio Ferreira Santos;;;;;;;
+MS-197;Elizabeth dos Santos Lima;;;;;;;
+{hour=3.0, year=2024.0, authMode=FULL, second=38.0, minute=56.0, triggerUid=1064794034, month=12.0, timezone=UTC, day-of-week=7.0, week-of-year=49.0, day-of-month=8.0};;Pós-consulta;12/31/1969 21:00:00;Pendente;Primeiro contato após orçamento;;;
+{hour=3.0, year=2024.0, authMode=FULL, second=38.0, minute=56.0, triggerUid=1064794034, month=12.0, timezone=UTC, week-of-year=49.0, day-of-week=7.0, day-of-month=8.0};;Pendente;12/31/1969 21:00:00;Pendente;Segundo contato após orçamento;;;
+{week-of-year=50.0, hour=3.0, triggerUid=1064794034, month=12.0, day-of-month=9.0, day-of-week=1.0, second=38.0, minute=56.0, authMode=FULL, timezone=UTC, year=2024.0};Pós-consulta;12/31/1969 21:00:00;Pendente;Primeiro contato após orçamento;;;;
+{week-of-year=50.0, hour=3.0, triggerUid=1064794034, month=12.0, day-of-month=9.0, second=38.0, day-of-week=1.0, minute=56.0, authMode=FULL, year=2024.0, timezone=UTC};Pendente;12/31/1969 21:00:00;Pendente;Segundo contato após orçamento;;;;
+{timezone=UTC, second=38.0, triggerUid=1064794034, authMode=FULL, day-of-month=10.0, day-of-week=2.0, hour=3.0, month=12.0, minute=56.0, year=2024.0, week-of-year=50.0};Pós-consulta;12/31/1969 21:00:00;Pendente;Primeiro contato após orçamento;;;;
+{timezone=UTC, second=38.0, triggerUid=1064794034, authMode=FULL, day-of-month=10.0, day-of-week=2.0, hour=3.0, month=12.0, year=2024.0, minute=56.0, week-of-year=50.0};Pendente;12/31/1969 21:00:00;Pendente;Segundo contato após orçamento;;;;

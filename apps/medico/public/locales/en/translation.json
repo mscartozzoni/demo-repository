@@ -1,0 +1,72 @@
+{
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}!",
+    "subtitle": "This is your command center. Ready for a productive day?",
+    "quick_stats": {
+      "consultations_today": "Consultations Today",
+      "new_patients": "New Patients",
+      "messages": "Messages"
+    },
+    "quick_actions": "Quick Actions",
+    "new_appointment": "New Appointment",
+    "add_patient": "Add Patient",
+    "create_document": "Create Document"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "agenda": "Agenda",
+    "teleconsultations": "Teleconsultations",
+    "patients": "Patients",
+    "journey": "Journey",
+    "evolution": "Evolution",
+    "messages": "Messages",
+    "financial": "Financial",
+    "documents": "Documents",
+    "products": "Products",
+    "website_builder": "Website Builder",
+    "qr_code_generator": "QR Code Generator",
+    "blog": "Blog",
+    "analytics": "Analytics",
+    "administration": "Administration",
+    "protocols": "Protocols",
+    "settings": "Settings"
+  },
+  "user_menu": {
+    "my_account": "My Account",
+    "profile": "Profile",
+    "layout": "Layout",
+    "language": "Language",
+    "logout": "Logout"
+  },
+  "layout_styles": {
+    "default": "Default",
+    "bordered": "Bordered",
+    "transparent": "Transparent"
+  },
+  "languages": {
+    "pt": "Portuguese",
+    "en": "English",
+    "es": "Spanish"
+  },
+  "login": {
+    "title": "Medical Portal",
+    "subtitle": "Log in to access your management platform.",
+    "email_label": "Email",
+    "password_label": "Password",
+    "forgot_password": "Forgot your password?",
+    "login_button": "Login",
+    "no_account": "Don't have an account?",
+    "register": "Register"
+  },
+  "landing": {
+    "title": "Medical Portal",
+    "subtitle": "Your complete platform for patient management, scheduling, and surgical protocols.",
+    "access_button": "Access Portal"
+  },
+  "emails": {
+    "document_sharing": {
+      "subject": "Your document from Dr. Márcio Plastic Surgery",
+      "body": "Hello {{patientName}},\n\nHere is the document '{{documentTitle}}' you requested.\n\nYou can view it by accessing the link below.\n\nBest regards,\nDr. Márcio's Team"
+    }
+  }
+}
